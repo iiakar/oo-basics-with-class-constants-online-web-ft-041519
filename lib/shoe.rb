@@ -20,10 +20,10 @@ end
 
 
 def 
-basket.each do |apple|
+  basket.each do |apple|
   puts "Taking out #{apple}"
   Shoe.new(brand)
-  BRANDS << brnd 
+ 
 end
 
 end 
