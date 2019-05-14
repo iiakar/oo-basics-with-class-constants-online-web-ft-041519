@@ -16,8 +16,9 @@ BRANDS = [ ]
 def brand=(brand)
   @brand = brand
   BRANDS << brand
+ 
   basket.each do |apple|
-  puts "Taking out #{apple}"
+  #puts "Taking out #{apple}"
   Shoe.new(brand)
  
 end
