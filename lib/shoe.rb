@@ -18,18 +18,12 @@ def brand=(brand)
   BRANDS << brand
 end
 
-it 'only keeps track of unique brands' do
-      Shoe::BRANDS.clear
-      brands = ["Uggs", "Rainbow", "Nike", "Nike"]
-      brands.each do |brand|
-        Shoe.new(brand)
-      end
-
 
 
 basket.each do |apple|
   puts "Taking out #{apple}"
-  apples_taken_out += 1
+  Shoe.new(brand)
+  BRANDS << brnd 
 end
 
 end 
