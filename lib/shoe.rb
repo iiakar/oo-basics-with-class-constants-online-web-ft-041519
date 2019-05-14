@@ -20,3 +20,4 @@ def initialize(brand)
       BRANDS << brand
     end
   end
+end 
