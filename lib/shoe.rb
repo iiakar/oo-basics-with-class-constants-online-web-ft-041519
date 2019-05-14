@@ -19,7 +19,7 @@ def brand=(brand)
 end
 
 
-
+def 
 basket.each do |apple|
   puts "Taking out #{apple}"
   Shoe.new(brand)
