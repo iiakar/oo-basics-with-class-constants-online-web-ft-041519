@@ -27,6 +27,9 @@ it 'only keeps track of unique brands' do
 
 
 
-
+basket.each do |apple|
+  puts "Taking out #{apple}"
+  apples_taken_out += 1
+end
 
 end 
